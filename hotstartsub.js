@@ -1,7 +1,6 @@
-// Prompt user to select a subscription plan
+
 let plan = prompt("Select a subscription plan:\n1. basic\n2. premium\n3. vip\n\nEnter the plan :");
 
-// Use switch case to handle each subscription plan
 switch (plan) {
     case 'basic':
         alert("You selected the Basic Plan.\nDetails:\n- Access to limited content\n- SD quality streaming\n- Ads included\n\nPrice: $5 per month");
